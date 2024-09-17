@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cellule">
+        <!--APPLIQUE A TOUT ELEMENTS AVEC CE STYLE -->
+        <item name="android:layout_margin">2sp</item>
+        <item name="paddingEnd">1sp</item>
+        <item name="itemPaddingTop">2sp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="cellule.tel">
+        <item name="android:gravity">end</item>
+    </style>
+    <style name="annuaire_rouge" parent="Theme.AppCompat.Light">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+</resources>

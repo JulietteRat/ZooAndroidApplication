@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accueil_soustitre"
+        android:textColor="@android:color/white"
+        android:background="#6DD100"
+        android:textSize="25sp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accueil_info"/>
+        <!--android:autoLink="all"
+        android:autoLink="phone|email"-->
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stub"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/map_title"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alerte_titre"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btannuaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Annuaire" />
+
+</LinearLayout>
+</ScrollView>

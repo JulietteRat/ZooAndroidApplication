@@ -1,0 +1,15 @@
+<resources>
+    <string name="map_title">Accueil</string>
+    <string name="Stephane_emotional_map">Zoo du 31</string>
+    <string name="fish_tank">Aquarium</string>
+    <string name="popcorn">Popcorn</string>
+    <string name="map_welcome_msg">Bienvenu au zoo</string>
+    <string name="popcorn_warning">Ne pas nourrir les poissons (%1$d %2$s)</string>
+    <plurals name="popcorn_seconds">
+        <item quantity="one">seconde</item>
+        <item quantity="other">secondes</item>
+    </plurals>
+    <string name="accueil_soustitre">app officielle</string>
+    <string name="accueil_info">Robert est très content de vous voir ici, voici son numéro 0309090909 et son adresse mail Robertdu56@yahoo.com</string>
+    <string name="alerte_titre">Alerte !</string>
+</resources>

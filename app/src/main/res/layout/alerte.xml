@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/alerte_intitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerte_intitule"
+        android:labelFor="@id/alerte_intitule" />
+
+    <EditText
+        android:id="@+id/alerte_editText_intitule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/alerte_lieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerte_lieu" />
+
+    <AutoCompleteTextView
+        android:id="@+id/alerte_AutoC_lieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
+
+
+    <TextView
+        android:id="@+id/alerte_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerte_information" />
+
+    <EditText
+        android:id="@+id/alerte_editText_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:ems="10"
+        android:layout_weight="10"
+        android:inputType="textCapSentences|textMultiLine"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/alerte_checkBox_urgent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alerte_urgent" />
+
+    <Button
+        android:id="@+id/alerte_bt_envoyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:onClick="envoyerClick"/>
+
+</LinearLayout>

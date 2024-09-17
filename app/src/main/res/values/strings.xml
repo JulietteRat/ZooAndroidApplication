@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name" translatable="false">Zoo</string>
+    <string name="Stephane_emotional_map" translatable="false">Zoo map</string>
+    <string name="map_title" translatable="false">Home</string>
+    <string name="fish_tank" translatable="false">Fish Tank</string>
+    <string name="popcorn" translatable="false">Popcorn</string>
+    <string name="map_welcome_msg" translatable="false">Welcom !</string>
+    <!-- Pour les textes à trous : -->
+    <string name="popcorn_warning" translatable="false">Don\'t feed fish (%1$d %2$s)</string>
+    <!-- gérer les pluriels -->
+    <plurals name="popcorn_seconds" translatable="false">
+        <item quantity="one">second</item>
+        <item quantity="other">seconds</item>
+    </plurals>
+    <string name="accueil_soustitre" translatable="false">official app</string>
+    <string name="accueil_info" translatable="false">You can contact bob if your children have been eated by a lion.
+        \n<b>The zoo decline all responsibility </b> for any injury we can have during your visit.
+        the zoo surface is about 30000 m<small><sup>2</sup></small>. You can contact bob at 0709080809</string>
+    <string name="stub" translatable="false">**********************</string>
+    <string name="alerte_titre" translatable="false">WARNING</string>
+    <!-- FORMULAIRE-->
+    <string name="alerte_intitule" translatable="false">Intitulé</string>
+    <string name="alerte_lieu" translatable="false">Lieu</string>
+    <string name="alerte_information" translatable="false">Information</string>
+    <string name="alerte_urgent" translatable="false">Urgent</string>
+    <string name="alerte_envois" translatable="false"> Alerte %1$s envoyée </string>
+    <string name="alerte_envois_urgent" translatable="false">Alerte %1$s URGENT !!!!!!</string>
+    <array name="alerte_lieu" translatable="false">
+        <item>Enclos des lions</item>
+        <item>Aquarium</item>
+        <item>Enclos des singes</item>
+        <item>Buvette</item>
+        <item>Stand de saucisse</item>
+        <item>Secours</item>
+        <item>Terrarium</item>
+    </array>
+    <string name="annuaire_titre" translatable="false">Annuaire</string>
+    <string name="alerte_confirmé" translatable="false">Confirmer envois ?</string>
+    <string name="menu_carte" translatable="false">Map</string>
+    <string name="menu_option" translatable="false">Option</string>
+    <string name="menu_envoyer" translatable="false">Send</string>
+    <string name="menu_animaux" translatable="false">Animals</string>
+    <string name="animal_title" translatable="false">Add Animals</string>
+    <string name="animal_espece" translatable="false">Species</string>
+    <string name="animal_age" translatable="false">Age</string>
+    <string name="animal_nom" translatable="false">Nom</string>
+    <string name="animal_validation" translatable="false">Tout les champs doivent être remplit ! </string>
+    <string name="animal_espece_dont_exist" translatable="false">This species doesn\'t exist in the zoo ! </string>
+    <string name="animal_chercher" translatable="false">Chercher Animal</string>
+</resources>
